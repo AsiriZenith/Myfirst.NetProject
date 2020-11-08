@@ -14,8 +14,9 @@ namespace CWeelsApi.Controllers
     {
         private List<Vehicle> vehicles = new List<Vehicle>
         {
-            new Vehicle(){Id=0,Title="Tesla S",Price=223000},
-            new Vehicle(){Id=1,Title="Tesla X",Price=229000},
+            new Vehicle(){Id=1,Title="Tesla X",Price=23000},
+            new Vehicle(){Id=2,Title="Tesla S",Price=29000},
+            new Vehicle(){Id=3,Title="Tesla Z",Price=27000}
         };
 
         [HttpGet]
@@ -44,8 +45,4 @@ namespace CWeelsApi.Controllers
     }
 }
 
-//[HttpPost("{}", Name = "PostApiVehicle")]
-//public void Post(Vehicle vehicle)
-//{
-//    vehicles.Add(vehicle);
-//}
+
